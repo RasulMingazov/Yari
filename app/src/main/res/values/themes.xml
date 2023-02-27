@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.Yari" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/dark_pink</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="AppTheme" parent="Theme.Yari" />
-
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="AppTheme.Launcher" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#F8F1FC</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/illustration_splash</item>
-        <item name="postSplashScreenTheme">@style/AppTheme</item>
-
-    </style>
 </resources>

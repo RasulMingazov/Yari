@@ -18,8 +18,6 @@ import com.jeanbernad.yari.MainActivity
 @Composable
 @Preview
 fun HomeScreen() {
-    (LocalContext.current as MainActivity)
-
     Column(
         modifier = Modifier
             .fillMaxSize()
