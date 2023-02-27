@@ -12,11 +12,12 @@ object Dependencies {
         const val ui = "androidx.compose.ui:ui:${Versions.Compose.composeUiVersion}"
         const val preview = "androidx.compose.ui:ui-tooling-preview:${Versions.Compose.composeUiVersion}"
         const val debug = "androidx.compose.ui:ui-tooling:${Versions.Compose.composeUiVersion}"
-
+        const val navigation = "androidx.navigation:navigation-compose:${Versions.Compose.navigation}"
     }
 
     object Android {
         const val material = "androidx.compose.material:material:${Versions.Android.material}"
+        const val splash = "androidx.core:core-splashscreen:${Versions.Android.splash}"
     }
 
     object Test {

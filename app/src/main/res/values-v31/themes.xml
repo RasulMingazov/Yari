@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Launcher" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F8F1FC</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/illustration_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Yari</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/illustration_label</item>
+    </style>
+</resources>

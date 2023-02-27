@@ -13,10 +13,12 @@ object Versions {
     object Compose {
         const val composeUiVersion = "1.3.3"
         const val activity = "1.6.1"
+        const val navigation = "2.6.0-alpha04"
     }
 
     object Android {
         const val material = "1.3.1"
+        const val splash = "1.0.0"
     }
 
     object Test {
