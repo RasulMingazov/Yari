@@ -1,5 +1,6 @@
 package com.jeanbernad.yari
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -8,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.compose.rememberNavController
+import com.jeanbernad.theme.AppTheme
 import com.jeanbernad.yari.ui.navigation.home.MainNavigationGraph
 import com.jeanbernad.yari.ui.topbar.YariTopBar
 
@@ -19,6 +21,10 @@ fun MainParentScreen() {
         content = { padding ->
             Box(
                 modifier = Modifier
+                    .background(
+                        brush = AppTheme.gradients().lightGreen(),
+                        alpha = 0.06f
+                    )
                     .fillMaxSize()
                     .padding(padding),
             ) {

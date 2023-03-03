@@ -1,20 +1,17 @@
 import com.jeanbernad.yari.buildsrc.Dependencies
 
 plugins {
-    id("com.android.application")
-    kotlin("android")
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
-    namespace = "com.jeanbernad.yari"
+    namespace = "com.jeanbernad.theme"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.jeanbernad.yari"
         minSdk = 24
         targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -45,11 +42,6 @@ android {
 }
 
 dependencies {
-    implementation(project(":data"))
-    implementation(project(":domain"))
-    implementation(project(":presentation"))
-    implementation(project(":theme"))
-
     implementation(Dependencies.Core.coreKtx)
     implementation(Dependencies.Core.lifecycle)
     implementation(Dependencies.Compose.activity)

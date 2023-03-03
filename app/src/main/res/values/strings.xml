@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Yari</string>
     <string name="app_name_caps">YARI</string>
+    <string name="home">Home</string>
 </resources>
