@@ -26,4 +26,13 @@ object Dependencies {
         const val composeTestManifest = "androidx.compose.ui:ui-test-manifest:${Versions.Compose.composeUiVersion}"
         const val composeUiTest = "androidx.compose.ui:ui-test-junit4:${Versions.Compose.composeUiVersion}"
     }
+
+    object Voyager {
+        const val voyager = "cafe.adriel.voyager:voyager-navigator:${Versions.Voyager.voyager}"
+        const val bottom = "cafe.adriel.voyager:voyager-bottom-sheet-navigator:${Versions.Voyager.voyager}"
+        const val androidX = "cafe.adriel.voyager:voyager-androidx:${Versions.Voyager.voyager}"
+        const val tab = "cafe.adriel.voyager:voyager-tab-navigator:${Versions.Voyager.voyager}"
+        const val transitions = "cafe.adriel.voyager:voyager-transitions:${Versions.Voyager.voyager}"
+        const val viewModel = "cafe.adriel.voyager:voyager-androidx:${Versions.Voyager.voyager}"
+    }
 }

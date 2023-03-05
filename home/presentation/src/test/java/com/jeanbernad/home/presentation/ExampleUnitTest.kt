@@ -1,4 +1,4 @@
-package com.jeanbernad.yari.presentation
+package com.jeanbernad.home.presentation
 
 import org.junit.Test
 

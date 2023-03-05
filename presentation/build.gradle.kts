@@ -37,15 +37,19 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.7.0")
-    implementation("androidx.appcompat:appcompat:1.6.0")
-    implementation("com.google.android.material:material:1.7.0")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation(Dependencies.Core.coreKtx)
+    implementation(Dependencies.Core.lifecycle)
 
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation(Dependencies.Compose.ui)
+    implementation(Dependencies.Compose.preview)
+    implementation(Dependencies.Compose.activity)
 
     implementation(Dependencies.Android.splash)
+
+    testImplementation(Dependencies.Test.jUnit)
+    androidTestImplementation(Dependencies.Test.extJUnit)
+    androidTestImplementation(Dependencies.Test.composeTestManifest)
+    debugImplementation(Dependencies.Compose.debug)
+    androidTestImplementation(Dependencies.Test.composeUiTest)
 
 }
