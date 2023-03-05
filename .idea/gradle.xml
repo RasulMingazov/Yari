@@ -14,7 +14,14 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/data" />
             <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/home" />
+            <option value="$PROJECT_DIR$/home/api" />
+            <option value="$PROJECT_DIR$/home/data" />
+            <option value="$PROJECT_DIR$/home/domain" />
+            <option value="$PROJECT_DIR$/home/presentation" />
+            <option value="$PROJECT_DIR$/navigation" />
             <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/theme" />
           </set>
         </option>
       </GradleProjectSettings>
