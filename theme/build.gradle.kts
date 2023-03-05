@@ -44,13 +44,11 @@ android {
 dependencies {
     implementation(Dependencies.Core.coreKtx)
     implementation(Dependencies.Core.lifecycle)
-    implementation(Dependencies.Compose.activity)
+
     implementation(Dependencies.Compose.ui)
-    implementation(Dependencies.Compose.preview)
-    implementation(Dependencies.Compose.navigation)
+
     implementation(Dependencies.Android.material)
-    implementation(Dependencies.Android.material)
-    implementation(Dependencies.Android.splash)
+
     testImplementation(Dependencies.Test.jUnit)
     androidTestImplementation(Dependencies.Test.extJUnit)
     androidTestImplementation(Dependencies.Test.composeTestManifest)
