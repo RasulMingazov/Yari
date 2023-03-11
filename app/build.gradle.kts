@@ -58,6 +58,7 @@ dependencies {
 
     implementation(Dependencies.Android.material)
     implementation(Dependencies.Android.splash)
+    implementation(Dependencies.Android.animation)
 
     implementation(Dependencies.Voyager.voyager)
     implementation(Dependencies.Voyager.bottom)

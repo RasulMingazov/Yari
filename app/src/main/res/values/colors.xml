@@ -4,8 +4,9 @@
     <color name="dark_pink">#ECE5F1</color>
     <color name="light_pink">#ECE5F1</color>
     <color name="party_pink">#F3EDF7</color>
+    <color name="party_pink_06">#06F3EDF7</color>
     <color name="purple">#825494</color>
-    <color name="lime">#84DD9E</color>
+    <color name="lime">#78DA94</color>
     <color name="light_lime">#8FDBA9</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>

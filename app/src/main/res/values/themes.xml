@@ -3,7 +3,7 @@
     <style name="Theme.Yari" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/dark_pink</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/party_pink_06</item>
     </style>
-
     <style name="AppTheme" parent="Theme.Yari" />
 </resources>

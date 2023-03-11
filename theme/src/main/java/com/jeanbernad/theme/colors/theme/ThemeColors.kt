@@ -11,6 +11,8 @@ interface ThemeColors {
     fun primary(): Color
 
     fun secondary(): Color
+
+    fun higher(): Color
     
     fun firstBackground(): Color
    

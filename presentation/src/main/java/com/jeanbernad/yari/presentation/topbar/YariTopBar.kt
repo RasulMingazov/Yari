@@ -1,4 +1,4 @@
-package com.jeanbernad.yari.ui.topbar
+package com.jeanbernad.yari.presentation.topbar
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.Text

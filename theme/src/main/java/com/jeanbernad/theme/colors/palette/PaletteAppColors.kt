@@ -10,6 +10,7 @@ class PaletteAppColors : PaletteColors {
     override fun lightMode() = AppThemeColors(
         primary = localColors.pink(),
         secondary = localColors.lime(),
+        higher = localColors.darkPurple(),
         firstBackground = localColors.lightLime(),
         secondBackground = localColors.lightPink(),
         thirdBackground = localColors.partyPink(),
@@ -20,6 +21,7 @@ class PaletteAppColors : PaletteColors {
     override fun darkMode() = AppThemeColors(
         primary = localColors.pink(),
         secondary = localColors.lime(),
+        higher = localColors.darkPurple(),
         firstBackground = localColors.lightLime(),
         secondBackground = localColors.lightPink(),
         thirdBackground = localColors.partyPink(),

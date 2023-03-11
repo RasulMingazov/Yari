@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/illustration_splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_mountains</item>
         <item name="postSplashScreenTheme">@style/AppTheme</item>
-        <item name="android:windowSplashScreenBrandingImage">@drawable/illustration_label</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_label</item>
     </style>
 </resources>

@@ -33,9 +33,16 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.2.0"
+    }
 }
 
 dependencies {
+    implementation(project(":theme"))
 
     implementation(Dependencies.Core.coreKtx)
     implementation(Dependencies.Core.lifecycle)
@@ -44,7 +51,16 @@ dependencies {
     implementation(Dependencies.Compose.preview)
     implementation(Dependencies.Compose.activity)
 
+    implementation(Dependencies.Android.material)
     implementation(Dependencies.Android.splash)
+    implementation(Dependencies.Android.animation)
+
+    implementation(Dependencies.Voyager.voyager)
+    implementation(Dependencies.Voyager.bottom)
+    implementation(Dependencies.Voyager.androidX)
+    implementation(Dependencies.Voyager.tab)
+    implementation(Dependencies.Voyager.transitions)
+    implementation(Dependencies.Voyager.viewModel)
 
     testImplementation(Dependencies.Test.jUnit)
     androidTestImplementation(Dependencies.Test.extJUnit)
