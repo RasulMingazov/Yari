@@ -8,6 +8,7 @@ import androidx.compose.ui.graphics.Color
 class AppThemeColors(
     private val primary: Color,
     private val secondary: Color,
+    private val higher: Color,
     private val firstBackground: Color,
     private val secondBackground: Color,
     private val thirdBackground: Color,
@@ -17,6 +18,7 @@ class AppThemeColors(
 
     private var primaryLocal by mutableStateOf(primary)
     private var secondaryLocal by mutableStateOf(secondary)
+    private var higherLocal by mutableStateOf(higher)
     private var firstBackgroundLocal by mutableStateOf(firstBackground)
     private var secondBackgroundLocal by mutableStateOf(secondBackground)
     private var thirdBackgroundLocal by mutableStateOf(thirdBackground)
@@ -26,6 +28,7 @@ class AppThemeColors(
     override fun copy() = AppThemeColors(
         this.primary,
         this.secondary,
+        this.higher,
         this.firstBackground,
         this.secondBackground,
         this.thirdBackground,
@@ -36,6 +39,7 @@ class AppThemeColors(
     override fun update(other: ThemeColors) {
         primaryLocal = other.primary()
         secondaryLocal = other.secondary()
+        higherLocal = other.higher()
         firstBackgroundLocal = other.firstBackground()
         secondBackgroundLocal = other.secondBackground()
         thirdBackgroundLocal = other.thirdBackground()
@@ -47,6 +51,8 @@ class AppThemeColors(
     override fun primary() = primaryLocal
 
     override fun secondary() = secondaryLocal
+
+    override fun higher() = higherLocal
 
     override fun firstBackground() = firstBackgroundLocal
 

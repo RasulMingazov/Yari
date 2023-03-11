@@ -14,6 +14,8 @@ interface LocalColors {
 
     fun purple(): Color
 
+    fun darkPurple(): Color
+
     fun lightLime(): Color
 
     fun lime(): Color

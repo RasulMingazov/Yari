@@ -14,6 +14,8 @@ class LocalAppColors : LocalColors {
 
     override fun purple() = Color(0xFF825494)
 
+    override fun darkPurple() = Color(0xFF6750A4)
+
     override fun lime() = Color(0xFF84DD9E)
 
     override fun lightLime() = Color(0xFF8FDBA9)

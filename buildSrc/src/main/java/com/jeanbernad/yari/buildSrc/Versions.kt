@@ -18,6 +18,7 @@ object Versions {
     object Android {
         const val material = "1.3.1"
         const val splash = "1.0.0"
+        const val animation = "1.3.3"
     }
 
     object Test {

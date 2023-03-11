@@ -43,6 +43,7 @@ android {
 
 dependencies {
     implementation(project(":presentation"))
+    implementation(project(":theme"))
 
     implementation(Dependencies.Core.coreKtx)
     implementation(Dependencies.Core.lifecycle)

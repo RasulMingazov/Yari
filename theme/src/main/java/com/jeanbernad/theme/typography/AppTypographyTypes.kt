@@ -9,9 +9,21 @@ import com.jeanbernad.theme.R
 
 class AppTypographyTypes : TypographyTypes {
 
-    override fun default() = TextStyle(
+    override fun text14() = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
+        fontSize = 14.sp
+    )
+
+    override fun text16() = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    )
+
+    override fun text16Bold() = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Bold,
         fontSize = 16.sp
     )
 
@@ -19,4 +31,6 @@ class AppTypographyTypes : TypographyTypes {
         fontFamily = FontFamily(Font(R.font.manuka_medium)),
         fontSize = 32.sp
     )
+
+
 }

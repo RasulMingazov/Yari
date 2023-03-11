@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="home">Home</string>
+    <string name="photo_selection">Photo selection</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="empty_message">"Click the button to start working with Yari"</string>
 </resources>
