@@ -15,24 +15,24 @@ fun PhotoSourceFloatingButton(
     gallerySourceClicked: () -> Unit
 ) {
     val galleryButton = InnerFloatingButtonItem(
-        icon = ImageVector.vectorResource(id = R.drawable.ic_camera),
+        icon = ImageVector.vectorResource(id = R.drawable.ic_gallery),
         label = stringResource(id = R.string.gallery),
         tintColor = AppTheme.colors().secondTextColor(),
-        backgroundColor = AppTheme.colors().higher()
+        backgroundColor = AppTheme.colors().secondary()
     ) { gallerySourceClicked() }
 
     val cameraButton = InnerFloatingButtonItem(
         icon = ImageVector.vectorResource(id = R.drawable.ic_camera),
         label = stringResource(id = R.string.camera),
         tintColor = AppTheme.colors().secondTextColor(),
-        backgroundColor = AppTheme.colors().higher()
+        backgroundColor = AppTheme.colors().secondary()
     ) { cameraSourceClicked() }
 
     MultiFloatingButton(
         tintColor = AppTheme.colors().secondTextColor(),
         label = stringResource(id = R.string.photo_selection),
-        icon = ImageVector.vectorResource(id = R.drawable.ic_camera),
-        backgroundColor = AppTheme.colors().secondary(),
-        items = listOf(cameraButton, galleryButton)
+        icon = ImageVector.vectorResource(id = R.drawable.ic_photo),
+        backgroundColor = AppTheme.colors().higher(),
+        items = listOf(galleryButton, cameraButton)
     )
 }

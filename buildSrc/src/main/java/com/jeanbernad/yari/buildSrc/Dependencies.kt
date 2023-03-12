@@ -17,7 +17,6 @@ object Dependencies {
 
     object Android {
         const val material = "androidx.compose.material:material:${Versions.Android.material}"
-        const val material3 = "androidx.compose.material3:material3:${Versions.Android.material3}"
         const val splash = "androidx.core:core-splashscreen:${Versions.Android.splash}"
         const val animation = "androidx.compose.animation:animation-core:${Versions.Android.animation}"
     }
